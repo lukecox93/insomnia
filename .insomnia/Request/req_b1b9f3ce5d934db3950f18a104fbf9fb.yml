@@ -1,0 +1,79 @@
+_id: req_b1b9f3ce5d934db3950f18a104fbf9fb
+type: Request
+parentId: wrk_78c80a8a44384d6c841ca6edc9c16632
+modified: 1671318447481
+created: 1671318440056
+url: https://www.quinnbet.com/fsb-api-rest/racing/future/5/HORSES.fsb
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: authority
+    value: www.quinnbet.com
+    id: pair_977d403336ed4a8fa8ecb8ac52e8cebb
+  - name: accept
+    value: application/json, text/plain, */*
+    id: pair_e694151bde38486e948c97a0140d50e0
+  - name: accept-language
+    value: en-GB,en-US;q=0.9,en;q=0.8
+    id: pair_f9ebfded509a4d0da875f080df04ce4b
+  - name: cookie
+    value: JSESSIONID=^\^D8ONhjJuCUZyarDMijOlEhv86Tv11TMngZrYkcek.tc-app6.rs.fsbtech.com:tc-app6.rs.fsbtech.com-wildfly-fsbapi-server^^;
+      JSESSIONID=^\^D8ONhjJuCUZyarDMijOlEhv86Tv11TMngZrYkcek.tc-app2.rs.fsbtech.com:tc-app2.rs.fsbtech.com-wildfly^^;
+      currencyCode=GBP; languageId=1; localeKey=en; siteId=196;
+      _gcl_aw=GCL.1671318380.CjwKCAiA7vWcBhBUEiwAXieItqS19s1dDIjVy_L3sv3ESxuusk6xwUlOO4TWWd0hxDMYOa3RSDRTPhoC51sQAvD_BwE;
+      _gcl_au=1.1.1849401160.1671318380; _gid=GA1.2.1355246441.1671318380;
+      _gac_UA-104082504-1=1.1671318380.CjwKCAiA7vWcBhBUEiwAXieItqS19s1dDIjVy_L3sv3ESxuusk6xwUlOO4TWWd0hxDMYOa3RSDRTPhoC51sQAvD_BwE;
+      _gat_UA-104082504-1=1;
+      _rdt_uuid=1671318380422.b45bf6ce-e247-42bd-8138-617eb7f0fe73;
+      clid=1b3b814f-7a06-4768-ff92-9ba8a92d1332;
+      affiliateTrack=^{^%^22affiliateName^%^22:^%^22utm^%^22^%^2C^%^22affiliateValue^%^22:^[^%^22utm_campaign=11815462939^%^22^%^2C^%^22utm_content=116123059418^%^22^%^2C^%^22gclid=CjwKCAiA7vWcBhBUEiwAXieItqS19s1dDIjVy_L3sv3ESxuusk6xwUlOO4TWWd0hxDMYOa3RSDRTPhoC51sQAvD_BwE^%^22^]^};
+      _hjFirstSeen=1; _hjIncludedInSessionSample=0;
+      _hjSession_1920044=eyJpZCI6ImQ4ZmJmNThlLTRmNzQtNDBlYS04YjBiLTI2YzcxM2NhNmRkOSIsImNyZWF0ZWQiOjE2NzEzMTgzODIwNTcsImluU2FtcGxlIjpmYWxzZX0=;
+      _hjAbsoluteSessionInProgress=0;
+      intercom-id-cgt6m7db=d1d5eb53-6b10-4fd5-9dc3-c3d5314c5f3e;
+      intercom-session-cgt6m7db=;
+      intercom-device-id-cgt6m7db=2a14bbbb-e233-42b5-b991-52c6ea8da214;
+      __cf_bm=kWSp0F5JbhmS.NiOh41ZDaDdn_QpeOxkCCG2nhxcASw-1671318382-0-AcuM66f1GEuV1CosoVLIsA5+hzRJkPaknABaoWZziqWrxOEgTOOnXMOh9TS/9YkZJMJlwKbfWKWsddAxT+rbXyUtmdPjje4VvJWj5UnK0XN2/UEQbdlRtX//NUWo69OjByU3uz0UWDyZPzANCjXqrFgfoxyNvW7TwXnuPVtD0P+w+NIKT+ah6/fUdbxOjp16DgM0wiGE6FWmIavEutbjz40=;
+      _hjSessionUser_1920044=eyJpZCI6IjZjNzA0ZWYxLTM5NTMtNTI2YS04ZGVlLTg4ZDg1M2M4N2E5MCIsImNyZWF0ZWQiOjE2NzEzMTgzODEzNjYsImV4aXN0aW5nIjp0cnVlfQ==;
+      selectedOdds=fractional;
+      _ga_BH83BWNMDS=GS1.1.1671318380.1.1.1671318405.0.0.0;
+      _ga=GA1.1.1409761047.1671318380; _uetsid=6c2ec0407e5f11edaeb5a5aad6e76b88;
+      _uetvid=8d2f3340442411edb6ea49b2caad49d0; SERVERID=tc-app6^|Y55Lk^|Y55Lb
+    id: pair_be4d796601444a738d781c41caff9903
+  - name: referer
+    value: https://www.quinnbet.com/sportsbook/HORSES/
+    id: pair_7e5d8e9998b24ce894f387f58f6f7c12
+  - name: sec-ch-ua
+    value: ^\^Not?A_Brand^^;v=^\^8^^, ^\^Chromium^^;v=^\^108^^, ^\^Google
+    id: pair_979da8c241fe40cdab7ea5910ba76c49
+  - name: sec-ch-ua-mobile
+    value: ?0
+    id: pair_2424019120b645bbb267a17db41481c6
+  - name: sec-ch-ua-platform
+    value: ^\^Windows^^
+    id: pair_ebd55028e7214d5a8ca11891e8b4ac88
+  - name: sec-fetch-dest
+    value: empty
+    id: pair_5a97aacb6ffb497a9f43114728e6d1d7
+  - name: sec-fetch-mode
+    value: cors
+    id: pair_57383b9669944217a5b5b8bff15970c0
+  - name: sec-fetch-site
+    value: same-origin
+    id: pair_cf7c7e351b8341cca2601062ce2cf6d8
+  - name: user-agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/108.0.0.0 Safari/537.36
+    id: pair_83d3251c83c8485089a890c6d37c586d
+authentication: {}
+metaSortKey: -1671318440056
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

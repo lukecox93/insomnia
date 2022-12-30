@@ -1,0 +1,92 @@
+_id: req_e14fca2c88f9449cbc80b042c41a9fa9
+type: Request
+parentId: wrk_78c80a8a44384d6c841ca6edc9c16632
+modified: 1671316244794
+created: 1671304852658
+url: https://www.10bet.co.uk/pagemethods_ros.aspx/UpdateHREvents
+name: 10bet
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: requestString
+      value: "129231995"
+      id: pair_f825934e9d894bb7bccc515cdec31061
+      disabled: false
+    - name: isAustralianMode
+      value: "false"
+      id: pair_50741a975da84606b37663d0226e55fd
+parameters: []
+headers:
+  - name: authority
+    value: www.10bet.co.uk
+    id: pair_bb7f068ed4544955935bca5b2e4f1aa3
+  - name: accept
+    value: "*/*"
+    id: pair_026ae5958d04413f939c99c2c20fa0ff
+  - name: accept-language
+    value: en-GB,en-US;q=0.9,en;q=0.8
+    id: pair_1d523e0b7daa4d709b5cd580a8a1be9e
+  - name: content-type
+    value: application/x-www-form-urlencoded
+    id: pair_b93635ae4d0f445c8a22177d16ec5af3
+  - name: cookie
+    value: sbtssid=wgoe5udm2zrir5hlb5glrrz5;
+      firstrequest=aHR0cDovL3d3dy4xMGJldC5jby51ay9zcG9ydHMvaG9yc2UtcmFjaW5nLw__;
+      lng=266; DoNotRedirectUser=1; oSt2=2; cTz=0; bVC=1; first_visit_ssl=first
+      visit to best place to bet; preloaded=-1500406435;
+      ak_bmsc=4C2671008B58290C0B0FA17672ED854D~000000000000000000000000000000~YAAQdopJF3RWzRWFAQAA6iCFIRLxpeQlKioyMz9dGl4KZycwr1lgjAVZIk10fzDtGLhIbSwK+8kW66DMePhx8OuAdhV0hvVOwyNAvxxQMIqe6YY2ADl5glUwu8su/cOs8pN0QjoB9esNcG6m/RVNmouf6gbMoimf9QDltG7NY8NW9k6oVznPqzxvrs69rYlBE+oZiDezkZ1fl2unQnwlpCUWuMw9ExecXLYAwVQS9xKO5Pmc6VwrO0w/71VgZ80KH+JIetRjfaUYR39F4HqiyOtJlQSeJzYXsRObIxVMIvBaFcgQ83uDMM7wAJZg1xt70ZFWhoWbnphajVkU+5fBZRPcdVaSgJ2tsdIyXr4h4FNSz5Z2DqKGozMODlA+LMUD/xHao8hlUpmh;
+      fp_token_7c6a6574-f011-4c9a-abdd-9894a102ccef=bzqzpS+Uuls3aznLYBY/IlckBtj6F+FMoJNvevUex4Q=;
+      dTz=0;
+      jwtToken_v2=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJTZXNzaW9uSVAiOiI1MS4yNDEuNy4xNTQiLCJTaXRlSWQiOjEsIlZlcnNpb24iOiIyIiwiU2Vzc2lvbklkIjoiNWYyNDgzNDYtNGQ2Yi00YzI2LTk4N2ItODU5NzVkMTA0ODQ1IiwibmJmIjoxNjcxMzA0NjIyLCJleHAiOjE2NzE5MDk0NTIsImlhdCI6MTY3MTMwNDY1MiwiaXNzIjoiQXN5bW1ldHJpY1Rva2VuTWFuYWdlciJ9.m-lLmvrYQ880qYz_u4tofifLSxi4Sa1dQf4PEH0y7PoXHZLJCCUMDSUx8J-RQrWr7JLo8eynEkPFs81zFzwUjDRwsJCdNr7r6vDMg0lnAJmmBUzNF-r2VsJ80mgghTVvlmhM8MtwkA5emarfFUAwAcMO4CibxtCsDCgHGdEjzy6sFdh7MR-J20-_d0wNAKa3BYaVwsz1EucXSUG8TjxoGKnv0jR5sSiNujboproj2xqP8VxwdFug226v3Eb_Rzq3IaKp1e97HJ1O6l7BUgr8Eup5lfmUYjfSzY7_KjvmjrMWzs8SIniEqDwXlPdMvmHamcUWlv_MxmJP6Wm38goKUw;
+      _gcl_au=1.1.1564635795.1671304655;
+      _scid=7ade4da8-6732-4d55-96a1-72cd6dd5d160;
+      _ga=GA1.3.429218184.1671304655; _gid=GA1.3.685688041.1671304655;
+      _uetsid=764ae0907e3f11ed9ddf3b1a6ed0578a;
+      _uetvid=1ff37c2032b711ec83fa35528a69d9f2;
+      bm_sv=3111E3C6BC2752409E6A07671C3E5F9E~YAAQfisoF0/Zqu6EAQAAX/2KIRLNbhm4OT6ihe6Q8yVvvEEq1iIqwO7kqWp40fVSt//2MKdMkH9SSUrzUtQT7Bb1OT+Gm5F3hC6++w8KLcokRQtlw4M6oszuDAar6rqX5LXsxFCW1Dsna/Pu2sXyS32rS8OwxxlMdUz/Ko2ztCDOLDDGSCGfv1c4Z3oN8Tw3Wi9TG3sheSFNvaVEazoAxpFRu2oX2+7D6h5ZcJ/iE1wzjFtOMhkrPJ3gj1rdHhopD9Y=~1
+    id: pair_9350daca6d864d1bbe6bf1af818edcbb
+  - name: origin
+    value: https://www.10bet.co.uk
+    id: pair_72a81a38018f4a61972c692f665fc610
+  - name: referer
+    value: https://www.10bet.co.uk/sports/horse-racing/wolverhampton/20221218/its-time-to-turn-to-talksport-nursery-div-1-12-05/
+    id: pair_02f9d02ca3f34847b164b547b75e8819
+  - name: requesttarget
+    value: AJAXService
+    id: pair_3488f2264296451cbdfc9120e44127e1
+  - name: sec-ch-ua
+    value: ^\^Not?A_Brand^^;v=^\^8^^, ^\^Chromium^^;v=^\^108^^, ^\^Google
+    id: pair_4bc8c15913324a8390509ab9154612f0
+  - name: sec-ch-ua-mobile
+    value: ?0
+    id: pair_9904b17bf2754e23b1cd43ff3df5a95c
+  - name: sec-ch-ua-platform
+    value: ^\^Windows^^
+    id: pair_bcdfc3031d6c4bd488cd6046b8682b44
+  - name: sec-fetch-dest
+    value: empty
+    id: pair_e45b3b17394045d2bce055e42f96c484
+  - name: sec-fetch-mode
+    value: cors
+    id: pair_f026c1246877498ab333212fd1a4de74
+  - name: sec-fetch-site
+    value: same-origin
+    id: pair_048a4092a1ef411497840ef3470a51a3
+  - name: user-agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/108.0.0.0 Safari/537.36
+    id: pair_b8c493367a014d2190a97a8589d3bd5a
+  - name: x-jwtoken
+    value: Internal jwt is muted due to the v8 output caching
+    id: pair_4f89c551e2e64599b0e423756765b39d
+authentication: {}
+metaSortKey: -1671304852658
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

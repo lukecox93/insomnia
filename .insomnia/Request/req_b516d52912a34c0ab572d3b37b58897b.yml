@@ -1,0 +1,73 @@
+_id: req_b516d52912a34c0ab572d3b37b58897b
+type: Request
+parentId: wrk_78c80a8a44384d6c841ca6edc9c16632
+modified: 1671318319464
+created: 1671316393583
+url: https://api.sportify.bet/v1/racing/meetings
+name: Netbet all races
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: language
+    value: en
+    disabled: false
+    id: pair_2fdc9988217c40fc96e8961536d76767
+  - name: category
+    value: HR
+    disabled: false
+    id: pair_9f469365a07440f397823d620a2c99b0
+  - name: bookmaker
+    value: netbetie
+    disabled: false
+    id: pair_59d87c2d7fd745adb4bd5bedbb06f2c9
+headers:
+  - name: authority
+    value: api.sportify.bet
+    id: pair_8eb998656e554dbbaae64edafdd97cca
+  - name: accept
+    value: application/json, text/plain, */*
+    id: pair_2bcfaf742e5041fb9d821ab26875b615
+  - name: accept-language
+    value: en-GB,en-US;q=0.9,en;q=0.8
+    id: pair_492eaa111cc64b209945b0eb48048451
+  - name: jwt
+    value: "null"
+    id: pair_99784209fac347fbb03d74d5b0007312
+  - name: origin
+    value: https://sport.netbet.co.uk
+    id: pair_526c57010e274c18b8c8fd9da4259705
+  - name: referer
+    value: https://sport.netbet.co.uk/
+    id: pair_5b27f749cb23438a92f9464e9e754798
+  - name: sec-ch-ua
+    value: ^\^Not?A_Brand^^;v=^\^8^^, ^\^Chromium^^;v=^\^108^^, ^\^Google
+    id: pair_4d59e211e7734bc0b4b7bab7b4c4a02d
+  - name: sec-ch-ua-mobile
+    value: ?0
+    id: pair_f83b162ef81441efbbd12820ea873bee
+  - name: sec-ch-ua-platform
+    value: ^\^Windows^^
+    id: pair_ff0006be520647c6ae54839c89dea9b5
+  - name: sec-fetch-dest
+    value: empty
+    id: pair_cb1f15e9d8b34c43891aecb9d57aa496
+  - name: sec-fetch-mode
+    value: cors
+    id: pair_ce15740338ec40a58ee14197e2aeeb97
+  - name: sec-fetch-site
+    value: cross-site
+    id: pair_62fdc80b40df4bb2840c4c3dd5cd3a4a
+  - name: user-agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/108.0.0.0 Safari/537.36
+    id: pair_149d5e1552704f3a980f6c5191cd584d
+authentication: {}
+metaSortKey: -1671316393583
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

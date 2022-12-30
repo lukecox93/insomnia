@@ -1,0 +1,77 @@
+_id: req_b3ecdb3bad834420930f4bb759f80810
+type: Request
+parentId: wrk_78c80a8a44384d6c841ca6edc9c16632
+modified: 1671305018287
+created: 1671304541338
+url: https://rsa.unibet.co.uk/api/v1/graphql
+name: Unibet single race with odds
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters:
+  - name: operationName
+    value: EventQuery
+    disabled: false
+    id: pair_52ff69d2a2ae4d0aac0e104f57f5878a
+  - name: variables
+    value: >
+      {"clientCountryCode":"GB","eventKey":"202212180000.T.USA.charles_town.1","fetchTRC":false}
+    disabled: false
+    id: pair_da41ee5f2da94dc0814b4056896cdbaf
+    type: text
+    multiline: text/plain
+  - name: extensions
+    value: '{"persistedQuery":{"version":1,"sha256Hash":"f9cf47204ea9bde4d04638eee36a62f6525a7256f37b254ceb71a0a422136c55"}}'
+    disabled: false
+    id: pair_22f8a6ce68954843ba67b7a21ca4279f
+headers:
+  - name: authority
+    value: rsa.unibet.co.uk
+    id: pair_1d5073a30af74aee99a8d049826a8277
+  - name: accept
+    value: "*/*"
+    id: pair_a0e0114a3d934f1091d67c427da6a0d9
+  - name: accept-language
+    value: en-GB,en-US;q=0.9,en;q=0.8
+    id: pair_9d1e63e3e37b44839283c9b81e644b8d
+  - name: content-type
+    value: application/json
+    id: pair_08b8bffe8e6e45749184fd3052761723
+  - name: origin
+    value: https://www.unibet.co.uk
+    id: pair_d1f35e46f71f42139277af26b4d4b0d0
+  - name: referer
+    value: https://www.unibet.co.uk/
+    id: pair_ab31029103814bd490629711d941c832
+  - name: sec-ch-ua
+    value: ^\^Not?A_Brand^^;v=^\^8^^, ^\^Chromium^^;v=^\^108^^, ^\^Google
+    id: pair_8420fe28bf8848c18082858a80fb23f7
+  - name: sec-ch-ua-mobile
+    value: ?0
+    id: pair_c36d00f8e67f47c894b6eac967c8e981
+  - name: sec-ch-ua-platform
+    value: ^\^Windows^^
+    id: pair_094ae6a6b6c84e5599617f7a399aecb2
+  - name: sec-fetch-dest
+    value: empty
+    id: pair_65f61ee6085b4621b48391663cbecea9
+  - name: sec-fetch-mode
+    value: cors
+    id: pair_e446084f062b4f1cbfb5933083b3fff0
+  - name: sec-fetch-site
+    value: same-site
+    id: pair_5efad8f6cb26494da76824e5ace31aa5
+  - name: user-agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/108.0.0.0 Safari/537.36
+    id: pair_88b0102ed7de4fb68eccf14b9199df21
+authentication: {}
+metaSortKey: -1671304541338
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

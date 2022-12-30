@@ -1,0 +1,75 @@
+_id: req_879c661fee2640699a801f93b505c1b3
+type: Request
+parentId: wrk_78c80a8a44384d6c841ca6edc9c16632
+modified: 1671305017726
+created: 1658062512944
+url: https://rsa.unibet.co.uk/api/v1/graphql
+name: Unibet all races
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: operationName
+    value: LobbyMeetingListQuery
+    disabled: false
+    id: pair_eabea851a81040bcae3c2cc26c2045a6
+  - name: variables
+    value: '{"countryCodes":[],"clientCountryCode":"GB","startDateTime":"2022-12-17T00:00:00.000Z","endDateTime":"2022-12-18T00:00:00.000Z","virtualStartDateTime":"2022-12-17T17:20:33.238Z","virtualEndDateTime":"2022-12-17T22:20:33.238Z","isRenderingVirtual":true,"fetchTRC":false,"raceTypes":["T"]}'
+    disabled: false
+    id: pair_18f41157a83a4cd08952676fc2acd880
+  - name: extensions
+    value: '{"persistedQuery":{"version":1,"sha256Hash":"216689e416d47d0ec019eceed3844937c97223d1b48b1ffdb10cb94e40e29fc1"}}'
+    disabled: false
+    id: pair_a6a708a43fd34319bd64bc2d46bf7b08
+headers:
+  - name: authority
+    value: rsa.unibet.co.uk
+    id: pair_17bb1fb22f844a699d31281eee4263ef
+  - name: accept
+    value: "*/*"
+    id: pair_c937142fc6344f4e86454f58d8d7af65
+  - name: accept-language
+    value: en-GB,en-US;q=0.9,en;q=0.8
+    id: pair_84418d6aa99a4e35b5af786a567e51d4
+  - name: content-type
+    value: application/json
+    id: pair_0f84b5db858e4ae7a8d329de4adc0c13
+  - name: origin
+    value: https://www.unibet.co.uk
+    id: pair_6e80abb6f7474a15bed39f7a6960b14d
+  - name: referer
+    value: https://www.unibet.co.uk/
+    id: pair_fe24ccc7a7474f7baf6baa99214ead85
+  - name: sec-ch-ua
+    value: ^\^Not?A_Brand^^;v=^\^8^^, ^\^Chromium^^;v=^\^108^^, ^\^Google
+    id: pair_8e64c1e94dff4370a03cdeba9aafc420
+  - name: sec-ch-ua-mobile
+    value: ?0
+    id: pair_2ceffeaa9aaf4c5e9c0430074e053ea2
+  - name: sec-ch-ua-platform
+    value: ^\^Windows^^
+    id: pair_b7bbedaed33e45edb3ef24ab87be1588
+  - name: sec-fetch-dest
+    value: empty
+    id: pair_c578c20fefe545aaa5b5281a016424ec
+  - name: sec-fetch-mode
+    value: cors
+    id: pair_d33891af0d154550b473c0797556de49
+  - name: sec-fetch-site
+    value: same-site
+    id: pair_8d33ce2d4d404cf6853522693f9acd8e
+  - name: user-agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/108.0.0.0 Safari/537.36
+    id: pair_a5e6b69d808a40ada603984b4a4e5564
+authentication: {}
+metaSortKey: -1658062512944
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

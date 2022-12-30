@@ -1,0 +1,112 @@
+_id: req_051ba3f90ae74115b3252a2c62621e56
+type: Request
+parentId: wrk_78c80a8a44384d6c841ca6edc9c16632
+modified: 1671316302699
+created: 1671316248565
+url: https://sports.bwin.com/cds-api/horse-racing/fixtures
+name: Bwin
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '["2:4498422"]'
+parameters:
+  - name: x-bwin-accessid
+    value: NTZiMjk3OGMtNjU5Mi00NjA5LWI2MWItZmU4MDRhN2QxZmEz
+    disabled: false
+    id: pair_521b3611634a4c15bd98fc8600ff0d93
+  - name: lang
+    value: en
+    disabled: false
+    id: pair_6c04368a1ccd414db910ba02e405719d
+  - name: country
+    value: GB
+    disabled: false
+    id: pair_b37c40208fca4cac95c60bfb27f45c56
+  - name: userCountry
+    value: GB
+    disabled: false
+    id: pair_486a0f85c9e24a14aa9e6ab13e957d53
+headers:
+  - name: authority
+    value: sports.bwin.com
+    id: pair_6653733b6afe448a81b12a771e9a316f
+  - name: accept
+    value: application/json, text/plain, */*
+    id: pair_00b20e15b60a4296b3e2b15bffe209ba
+  - name: accept-language
+    value: en-GB,en-US;q=0.9,en;q=0.8
+    id: pair_02dea9f2c3824bf1a57b56e4a799a23d
+  - name: cache-control
+    value: no-cache
+    id: pair_175738bb4f3a45c6a5837594b958c282
+  - name: content-type
+    value: application/json
+    id: pair_22f51be87941448ab5b85d361252eaa8
+  - name: cookie
+    value: ASP.NET_SessionId=sktbpp0x23dw5btf44133o1m;
+      trc.cid=1731035e4e9c4a998084245301e6224b;
+      usersettings=cid=en-US&vc=1&sst=2022-12-17T22:29:06.0401191Z&psst=0001-01-01T00:00:00.0000000Z&lsid=sktbpp0x23dw5btf44133o1m;
+      isLanguageChanged=false; lang=en; dark-mode=1; trackerId=4592959;
+      trackingAffiliate=4592959;
+      tdpeh=65731_35287576_1968504496_532924569241_kwd-2846598995_e_c;
+      __cf_bm=ghx2eGNpXNyPrU929YUVPeuacyXqCCEDSvcKN6ncLiU-1671316146-0-AZ4WmRV9r06UzT5+7vNA6EDJAXEwLV9qJfov3IIk89F4kSS6Lb8f8oejDmG8+uy7/XsZNq7Gvut1W50phPGFNv/Kc0dqao0QYRB1FUlgHFW/;
+      _gid=GA1.2.697229585.1671316148; _gat_UA-174640404-2=1;
+      _dc_gtm_UA-174640404-21=1; _dc_gtm_UA-174640404-2=1;
+      _gcl_au=1.1.1831138079.1671316148;
+      kndctr_6B47D0245A26653C0A495CDC_AdobeOrg_identity=CiYyMTc1NDQ2MjYwNzY1MTc3MDMwMzQ3MzQzNTk5MTIxNDM5NTM0NlIPCNuV0pHSMBgBKgRJUkwxoAHbldKR0jDwAduV0pHSMA==;
+      kndctr_6B47D0245A26653C0A495CDC_AdobeOrg_cluster=irl1;
+      AMCV_6B47D0245A26653C0A495CDC^%^40AdobeOrg=MCMID^|21754462607651770303473435991214395346;
+      _sp_ses.cc76=*; _scid=8c19661e-fb51-40fc-ac40-324b00baa23b;
+      entryUrlReferrer=https://promo.bwin.com/;
+      redirex-original=http://sports.bwin.com:80/en?productId=SPORTSBOOK&rurl=https^%^3A^%^2F^%^2Fsports.bwin.com^%^2Fen^%^2Fsports&wm=4592959&tdpeh=65731_35287576_1968504496_532924569241_kwd-2846598995_e_c&utm_source=search_google&utm_campaign=35287576&utm_content=532924569241&utm_medium=e&utm_term=bwin&sb=1&gclid=CjwKCAiA7vWcBhBUEiwAXieIttf10SwrGtRe0eSx1V-w93jxePG3Nds6XxanDHIcPH5f0oTR_QobxRoCua0QAvD_BwE;
+      entryUrl=https://sports.bwin.com/en/sports?productId=SPORTSBOOK&rurl=https^%^3A^%^2F^%^2Fsports.bwin.com^%^2Fen^%^2Fsports&wm=4592959&tdpeh=65731_35287576_1968504496_532924569241_kwd-2846598995_e_c&utm_source=search_google&utm_campaign=35287576&utm_content=532924569241&utm_medium=e&utm_term=bwin&sb=1&gclid=CjwKCAiA7vWcBhBUEiwAXieIttf10SwrGtRe0eSx1V-w93jxePG3Nds6XxanDHIcPH5f0oTR_QobxRoCua0QAvD_BwE;
+      lastKnownProduct=^%^7B^%^22url^%^22^%^3A^%^22https^%^3A^%^2F^%^2Fsports.bwin.com^%^2Fen^%^22^%^2C^%^22name^%^22^%^3A^%^22sports^%^22^%^2C^%^22previous^%^22^%^3A^%^22unknown^%^22^%^2C^%^22platformProductId^%^22^%^3A^%^22SPORTSBOOK^%^22^%^7D;
+      defaultStake=5; tq=^%^5B^%^5D; DAPROPS=^\^sjs.webGlRenderer:ANGLE
+    id: pair_a57ed612504b45709b1805957f9a2678
+  - name: origin
+    value: https://sports.bwin.com
+    id: pair_a9bc0dafd6c24e2dbcc90626ebed8577
+  - name: referer
+    value: https://sports.bwin.com/en/sports/horse-racing-29/w-hampton-85/2:4498422
+    id: pair_c791cef3566b47baa951586fa449be33
+  - name: sec-ch-ua
+    value: ^\^Not?A_Brand^^;v=^\^8^^, ^\^Chromium^^;v=^\^108^^, ^\^Google
+    id: pair_10e60f29dc554ce2aa3b8c5c154faf19
+  - name: sec-ch-ua-mobile
+    value: ?0
+    id: pair_b077809874a244f1ba04a21cc360cda2
+  - name: sec-ch-ua-platform
+    value: ^\^Windows^^
+    id: pair_d16bf7050d9d487da08dcdd0f3dd9d65
+  - name: sec-fetch-dest
+    value: empty
+    id: pair_6536893cbcfb421ea2542ed7554966c7
+  - name: sec-fetch-mode
+    value: cors
+    id: pair_d858dc21dc3d46b09bdcd27eaa923306
+  - name: sec-fetch-site
+    value: same-origin
+    id: pair_f7b677e5c3a449939d64d35cf8ec585b
+  - name: user-agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/108.0.0.0 Safari/537.36
+    id: pair_d3f44dd6ca9a47e89f3453f549d79250
+  - name: x-app-context
+    value: default
+    id: pair_5f9afacb8aa74c7eb06719c59e892f2a
+  - name: x-bwin-browser-url
+    value: https://sports.bwin.com/en/sports/horse-racing-29/w-hampton-85/2:4498422
+    id: pair_b020508f26a44e8d9b19cbc1f045d442
+  - name: x-from-product
+    value: sports
+    id: pair_1561369fcad946f78a9ded63f835fd27
+authentication: {}
+metaSortKey: -1671316248565
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
